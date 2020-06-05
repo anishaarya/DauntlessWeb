@@ -1,0 +1,224 @@
+body {
+  font-family: "Montserrat";
+}
+
+h2, h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #2fc4b2;
+  color: #FFF;
+}
+
+.container-fluid {
+  padding: 1% 8% 6%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* Download buttons */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title- image */
+.title-img {
+  right: 1%;
+  bottom: 2%;
+  height: 300px;
+  width: 500px;
+  margin: 1px 1px;
+
+  position: absolute;
+}
+/* vision section */
+#vision {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.vision-box {
+  text-align: center;
+  padding: 1%;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #5fdde5;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #2fc4b2;
+}
+/* vision image */
+#aimage {
+  background-color: #5fdde5;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.a-logo {
+  width: 40%;
+  margin: 10px 20px 10px;
+}
+
+/* Achievements */
+#achievements{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.ach-box {
+  text-align: center;
+  padding: 1%;
+}
+.alogo {
+  width: 50%;
+  /* margin: 10px 10px ; */
+  height: 300px;
+  width: 300px;
+}
+
+/* Campaigns section */
+#camp {
+  text-align: center;
+  background-color: #5fdde5;
+  color: #fff;
+}
+
+/* team section */
+#team{
+   padding: 2% 2%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.team-box {
+  text-align: center;
+  padding: 1%;
+}
+.tlogo {
+  /* width: 50%; */
+  /* margin: 10px 10px ; */
+  height: 150px;
+  width: 150px;
+  margin: 1px 1px;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+/* testimonials */
+#testimonials {
+
+  text-align: center;
+  background-color: #5fdde5;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 4% 8%;
+}
+
+#join {
+  padding: 50px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+  background-color: #2fc4b2;
+  color: #FFF;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.cta-head {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+}
+.btn-sign{
+  margin: 1% 1%;
+}
+/* footer section */
+#footer {
+  padding: 1% 1%;
+  text-align: center;
+}
+
+.soc-icon {
+  margin: 20px 10px;
+}
